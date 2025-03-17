@@ -7,6 +7,5 @@ echo $name
 
 
 #COUNT CHARACTER
-echo "Enter any sentence"
-read sent
+read -p "Enter sentence seperated by space:" sent
 echo "character count:" ${#sent} 
